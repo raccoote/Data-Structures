@@ -24,7 +24,6 @@ string filename2 = "simplified " + filename; // copy of original file in which t
 
 The code specifies the names of the original file (small-file.txt) and a simplified copy of the file. The simplified copy is expected to contain words without punctuation and in lowercase.
 
-**3. File Copy and Word Simplification:**
 
 ```c
 int lineCount = 0;
@@ -36,7 +35,7 @@ if (!simplifiedCopyFile(filename, filename2))
 
 The program calls a function simplifiedCopyFile to create a simplified version of the original file. If the file operation fails, the program returns with an error code.
 
-**4. Benchmarking Insertion:**
+**3. Benchmarking Insertion:**
 
 ```c
 benchmarkInsertClock<BinaryTree>(c, filename2);
@@ -46,7 +45,7 @@ benchmarkInsertClock<HashTable>(e, filename2);
 
 The code benchmarks the insertion performance of the simplified words into each of the three data structures: BinaryTree, AVLtree, and HashTable.
 
-**5. Random Word Selection:**
+**4. Random Word Selection:**
 
 
 ```c
@@ -56,7 +55,7 @@ randomWords = randomWordsFromFile(randomWords, filename2, NUM_OF_TEST_SEARCHES, 
 ```
 The program selects a number of random words (specified by NUM_OF_TEST_SEARCHES) from the simplified file for later search operations.
 
-**6. Benchmarking Search:**
+**5. Benchmarking Search:**
 
 ```c
 
