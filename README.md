@@ -1,4 +1,4 @@
-# Data Structures in C++
+# File Word Counter in C++
 This C++ code implements a word counter program using five different data structures: UnsortedArray, SortedArray, BinaryTree, AVLtree, and HashTable. The purpose of the program seems to be to read a text file, create a simplified version of it by removing punctuation and converting all words to lowercase. The program aims to compare the performance of these data structures in terms of insertion and search operations.
 
 Let's break down the main components of the code:
