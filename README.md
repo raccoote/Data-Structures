@@ -76,8 +76,9 @@ return 0;
 ```
 The program prints a termination message and exits with a return code of 0, indicating successful execution.
 
+**8.Finish:**
 
-Displayed are the outcomes of the code tested on a modest file comprising 32,000 lines. It's noteworthy that conducting tests on more substantial files (exceeding 2 GB) would yield more pronounced effects on the execution times and disparities among the various data structures.
+Displayed are the outcomes of the code tested on a modest file comprising 32,000 lines, which appear both in terminal and in an outcome file. It's noteworthy that conducting tests on more substantial files (exceeding 2 GB) would yield more pronounced effects on the execution times and disparities among the various data structures.
 
 ![image](https://github.com/raccoote/Data-Structures/assets/74006924/5267962c-3cec-4c1d-877d-1455228b8cf5)
 
