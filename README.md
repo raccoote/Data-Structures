@@ -55,7 +55,7 @@ randomWords = randomWordsFromFile(randomWords, filename2, NUM_OF_TEST_SEARCHES, 
 ```
 The program selects a number of random words (specified by NUM_OF_TEST_SEARCHES) from the simplified file for later search operations.
 
-**5. Benchmarking Search:**
+**4. Benchmarking Search:**
 
 ```c
 
@@ -66,7 +66,7 @@ benchmarkSearchClock<HashTable>(e, randomWords, true);
 ```
 The code performs search operations for the selected random words on each data structure and prints the time taken for these operations. The last argument in the function calls determines whether or not to print the search results to the terminal window.
 
-**7.Finish:**
+**5.Finish:**
 
 ```c
 cout << "-----------------" << endl;
@@ -75,7 +75,7 @@ return 0;
 ```
 The program prints a termination message and exits with a return code of 0, indicating successful execution.
 
-**8.Finish:**
+**6.Results:**
 
 Displayed are the outcomes of the code tested on a modest file comprising 32,000 lines, which appear both in terminal and in an outcome file. It's noteworthy that conducting tests on more substantial files (exceeding 2 GB) would yield more pronounced effects on the execution times and disparities among the various data structures.
 
